@@ -1,0 +1,130 @@
+
+
+/* MAIN */
+
+#proyectos {
+    padding: 5rem 7rem;
+}
+
+/* TITULOS */ 
+
+.encabezado span {
+    opacity: 0.18;
+}
+
+.encabezado h2 {
+    margin-top: 2rem;
+    font-family: var(--monserrat);
+    font-size:30px;
+    color: var(--text-header); 
+    opacity: 0.9;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, var(--border-btn), transparent);
+    border-image-slice: 1;
+}
+
+/* TARJETA */
+
+#contenedor-proyectos {
+    margin-top: 2rem;
+}
+
+.tarjeta-proyecto {
+    padding: 1rem 1.2rem;
+    border: 1px solid var(--border-btn);
+    border-radius: 12px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    background: #0b0e1e;
+    transition: transform .3s ease-out;
+}
+
+.tarjeta-proyecto:hover{
+    transform: translate(-5px, -2px);
+    background: #212a48;
+}
+
+.tarjeta-modulo {
+    opacity: .3;
+    font-family: var(--playfair);
+    margin-right: .8rem;
+}
+
+.tarjeta-estado{
+    padding: .3rem .9rem;
+    border-radius: 999px;
+    color: white;
+    font-size:12px;
+}
+
+.tarjeta-titulo {
+    margin-top: .2rem;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--text-btn)
+}
+
+.descripcion {
+    margin-top: .2rem;
+    font-weight: 200;
+    color: var(--text-secondary); 
+    opacity: .8;
+    font-size: 18px;
+}
+
+.tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.badge-tecnologia {
+  background-color: var(--btn);
+  color: var(--text-btn);
+  border: 1px solid var(--border-btn);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  background: var(--btn);
+}
+
+.enlace-tipo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: var(--btn);
+  color: var(--text-btn);
+  border-radius: 40%;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.enlace-tipo:hover {
+  background-color: var(--btn-active);
+  border-color: var(--btn-active-border);
+  color: var(--text);
+  box-shadow: 0 0 20px rgba(80, 109, 223, 0.4);
+  transform: rotate(-45deg);
+}
+
+.enlace img {
+    width: 35px;
+    height:35px; 
+}
+/* COLORES ESTADOS */
+
+.estado-completo{
+    background: var(--completo);
+}
+
+.estado-en-progreso{
+    background: var(--en-progreso);
+}
+
+.estado-pendiente{
+    background: var(--pendiente);
+}
