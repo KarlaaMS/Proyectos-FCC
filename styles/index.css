@@ -191,6 +191,11 @@ nav ul li a:hover {
   transform:translateY(-3px);
 }
 
+.botones button a {
+  text-decoration: none;
+  color: var(--text-btn);
+}
+
 .info {
   margin-top: 2rem;
   font-family:'Courier New', Courier, monospace;
