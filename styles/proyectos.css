@@ -128,3 +128,15 @@
 .estado-pendiente{
     background: var(--pendiente);
 }
+
+@media (max-width: 768px) {
+    #proyectos {
+        padding: 5rem 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #proyectos {
+        padding: 5rem 2rem;
+    }
+}
